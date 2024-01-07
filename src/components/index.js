@@ -8,3 +8,4 @@ export { Sidebar } from "./Sidebar";
 export { Videos } from "./Videos";
 export { VideoCard } from "./VideoCard";
 export { ChannelCard } from "./ChannelCard";
+export { Loader } from "./Loader";
