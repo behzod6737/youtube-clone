@@ -6,7 +6,7 @@ import { VideoCard, ChannelCard,Loader } from "./";
 export const Videos = ({videos,direction}) => {
 	if (!videos?.length) return <Loader/>;
   return (
-    <Stack direction={direction || "row"} flexWrap={"wrap"} justifyContent={"start"} gap={2}>
+    <Stack direction={direction || "row"} flexWrap={"wrap"} gap={2} justifyContent={"start"} >
 		
       {videos.map((item, idx) => {
 		return (
